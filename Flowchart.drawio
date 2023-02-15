@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="svp9aKhfkiVqdJBUMnn2" name="Страница 1">
+        <mxGraphModel dx="746" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="200" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="int length = array.Length" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="341" y="240" width="146" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Да" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Нет" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="int i = 0, i &amp;lt; length, i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="346" y="340" width="136" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Ввод&lt;br&gt;string[] array&lt;br&gt;int symbols" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Да" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Нет" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="7">
+                    <mxGeometry x="-0.8619" relative="1" as="geometry">
+                        <mxPoint x="300" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="300" y="535"/>
+                            <mxPoint x="300" y="450"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="array[i].Length &amp;gt; symbols" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="334" y="460" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Вывод&lt;br&gt;array" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Да" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="7">
+                    <mxGeometry x="-0.2397" relative="1" as="geometry">
+                        <mxPoint x="320" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="680"/>
+                            <mxPoint x="330" y="680"/>
+                            <mxPoint x="310" y="680"/>
+                            <mxPoint x="300" y="660"/>
+                            <mxPoint x="300" y="630"/>
+                            <mxPoint x="300" y="520"/>
+                            <mxPoint x="300" y="450"/>
+                            <mxPoint x="320" y="420"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="array[i] = string.Empty" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="351" y="650" width="126" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
